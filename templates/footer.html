@@ -1,0 +1,135 @@
+<!--footer-->
+<div class="container-fluid">
+    <div class="container">
+      <div class="row">
+      <div class="footer">
+         <div class="col-lg-3">
+          <div class="footer-section-1">
+            <h3>Link</h3>
+           <ul class="footer-aws">
+             <li><a href=""><i class="fas fa-angle-right"></i>HOME</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>SERVICE </a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>ABOUT US</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>PRODUCT</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>NEWS</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>CONTACT US</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>HOME</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>SERVICE </a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>ABOUT US</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>PRODUCT</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>PRODUCT</a></li>
+    
+           </ul>
+          </div>
+         </div>
+         <div class="col-lg-6 footer-section-1">
+           <div class="col-lg-12">
+             <div class="col-lg-6">
+             <div class="footer-section-1">
+             <h3>Link</h3>
+           <ul class="footer-aws">
+             <li><a href=""><i class="fas fa-angle-right"></i>HOME</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>SERVICE </a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>ABOUT US</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>PRODUCT</a></li>
+             <li><a href=""><a href=""><i class="fas fa-angle-right"></i>NEWS</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>CONTACT US</a></li>
+           </ul></div></div>
+             <div class="col-lg-6 ">
+             <div class="">
+             <h3>Link</h3>
+           <ul class="footer-aws">
+            <li><a href=""><i class="fas fa-angle-right"></i>HOME</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>SERVICE </a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>ABOUT US</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>PRODUCT</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>NEWS</a></li>
+             <li><a href=""><i class="fas fa-angle-right"></i>CONTACT US</a></li>
+           </ul></div></div>
+           </div>
+           <div class="col-lg-12"><div class="footer-social border-top">
+                            <ul class="list-inline clear">
+                            <li><h3 style="color: #ca5266; font-size: 30px">Ayra Industres</h3></li>
+    
+                               <li><a class="tw" target="_blank" href="https://twitter.com/AbilisSolutions"><i class="fa fa-twitter"></i></a></li>
+                               <li><a class="li" target="_blank" href="https://www.linkedin.com/company/abilis-solutions?trk=biz-companies-cym"><i class="fa fa-linkedin"></i></a></li>
+                               <li><a class="fb" target="_blank" href="https://www.facebook.com/Solutions-Abilis-1422492811119373/"><i class="fa fa-facebook"></i></a></li>
+                               <li><a class="large-icon yt" target="_blank" href="https://www.youtube.com/channel/UCL9h02kMUOuMAw5i9V-pQOg/videos"><i class="fa fa-youtube"></i></a></li>
+                                
+                            </ul>
+                         </div></div>
+         </div>
+         <div class="col-lg-3"><img class="footer-image" src="../image/ARYj.png"></div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!--footer-->
+    
+    <!--copy right-->
+    <div class="copy-right">
+     <div class="container">
+        <div class="copy-right-text">
+          <p>Copyright © 2018, Ayra Industres. All rights reserved.</p>
+          
+        </div>
+       
+     </div>
+      
+    </div>
+    
+    <!--copy right-->
+    
+    
+    
+    
+    
+        
+    
+          <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("column");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+    
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+    
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+    
+    
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+    </script>
+
+  

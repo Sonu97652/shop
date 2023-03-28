@@ -1,0 +1,308 @@
+
+<html>
+  <head>
+    <style>
+      * {
+          box-sizing: border-box;
+      }
+      
+      body {
+          background-color:   ;
+         
+          font-family: Arial;
+      }
+      
+      /* Center website */
+      .main {
+          max-width: 1000px;
+          margin: auto;
+      }
+      
+      h1 {
+          font-size: 50px;
+          word-break: break-all;
+      }
+      
+      .whitespace {
+          margin: 10px -16px;
+      }
+      
+      /* Add padding BETWEEN each column */
+      .whitespace,
+      .whitespace > .column {
+          padding: 8px;
+      }
+      
+      /* Create three equal columns that floats next to each other */
+      .column {
+          float: left;
+          width: 33.33%;
+          display: none; /* Hide all elements by default */
+      }
+      
+      /* Clear floats after rows */ 
+      .whitespace:after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+      
+      /* Content */
+      .content {
+          background-color: #f1f1f1;
+          padding: 10px;
+      }
+      
+      /* The "show" class is added to the filtered elements */
+      .show {
+        display: block;
+      }
+      
+      /* Style the buttons */
+      .btn {
+        border: none;
+        outline: none;
+        padding: 12px 16px;
+        background-color: white;
+        cursor: pointer;
+      }
+      
+      .btn:hover {
+        background-color: #ddd;
+      }
+      
+      .btn.active {
+        background-color: #666;
+        color: white;
+      }
+      </style>
+    </head>
+    <body>
+       <!--upper header-->
+
+
+       <!--lower-->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="nav-lower"> 
+                <ul>
+                  <li><a href="index.html"> HOME</a></li>
+                  <li><a href="product.html">SERVICE</a></li>
+                  <li><a href="about-us.html"> ABOUT US</a></li>
+                  <li><a href="product.html">PRODUCT</a></li>
+                  <li><a href="about-us.html">NEWS</a></li>
+                  <li><a href="our_invester.html">OUR INVESTER</a></li>
+                  <li><a href="our_invester.html">CONTACT US</a></li>
+                  <li><a href="our_invester.html">CONTACT US</a></li>
+                </ul>
+                
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+
+       <!--lower-->
+</div>
+   <!--header-->
+
+
+
+
+   <!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>OUR PRODUCT</h1>
+<hr>
+
+<h2>Select Product</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> JEANS</button>
+  <button class="btn" onclick="filterSelection('cars')"> T SHIRT</button>
+  <button class="btn" onclick="filterSelection('people')"> SHIRT</button>
+  <button class="btn" onclick="filterSelection('LOWER')"> LOWER</button>
+  <button class="btn" onclick="filterSelection('LOWER')"> </button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row whitespace">
+  <div class="column nature">
+    <div class="content">
+      <img src="/static/image/jeans-1.jpg" alt="Mountains" style="width:100%">
+      <h4>Men Jeans</h4>
+      <p>Men Washed Destroyed Jeans</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="/static/image/jeans-2.jpg" alt="Lights" style="width:100%">
+      <h4>Men Jeans</h4>
+      <p>Men Washed Destroyed Jeans</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="/static/image/jeans-3.jpg" alt="Nature" style="width:100%">
+      <h4>Men Jeans</h4>
+      <p>Men Washed Destroyed Jeans</p>
+    </div>
+  </div>
+    <div class="column nature">
+    <div class="content">
+    <img src="/static/image/jeans-4.jpg" alt="Nature" style="width:100%">
+      <h4>Men Jeans</h4>
+      <p>Men Washed Destroyed Jeans</p>
+    </div>
+  </div>
+    <div class="column nature">
+    <div class="content">
+    <img src="/static/image/jeans-5.jpg" alt="Nature" style="width:100%">
+      <h4>Men Jeans</h4>
+      <p>Men Washed Destroyed Jeans</p>
+    </div>
+  </div>
+    <div class="column nature">
+    <div class="content">
+    <img src="/static/image/jeans-6.jpg" alt="Nature" style="width:100%">
+      <h4>Men Jeans</h4>
+      <p>Men Washed Destroyed Jeans</p>
+    </div>
+  </div>
+    <div class="column nature">
+    <div class="content">
+    <img src="/static/image/jeans-7.jpg" alt="Nature" style="width:100%">
+      <h4>Men Jeans</h4>
+      <p>Men Washed Destroyed Jeans</p>
+    </div>
+  </div>
+    <div class="column nature">
+    <div class="content">
+    <img src="/static/image/jeans-8.jpg" alt="Nature" style="width:100%">
+      <h4>Men Jeans</h4>
+      <p>Men Washed Destroyed Jeans</p>
+    </div>
+  </div>
+    <div class="column nature">
+    <div class="content">
+    <img src="/static/image/jeans-9.jpg" alt="Nature" style="width:100%">
+     <h4>Men Jeans</h4>
+      <p>Men Washed Destroyed Jeans</p>
+    </div>
+  </div>
+  
+  <div class="column cars">
+    <div class="content">
+      <img src="/static/image/t-shirt-1.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="/static/image/t-shirt-2.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="/static/image/t-shirt-3.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+   <div class="column cars">
+    <div class="content">
+    <img src="/static/image/t-shirt-4.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+   <div class="column cars">
+    <div class="content">
+    <img src="/static/image/t-shirt-5.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+   <div class="column cars">
+    <div class="content">
+    <img src="/static/image/t-shirt-6.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+   <div class="column cars">
+    <div class="content">
+    <img src="/static/image/t-shirt-7.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+   <div class="column cars">
+    <div class="content">
+    <img src="/static/image/t-shirt-8.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+   <div class="column cars">
+    <div class="content">
+    <img src="/static/image/t-shirt-9.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="/static/image/t-shirt-10.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="/static/image/t-shirt-11.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+
+  <div class="column people">
+    <div class="content">
+      <img src="/static/image/shirt-1.jpg" alt="Car" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="/static/image/shirt-2.jpg" alt="Car" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+    <img src="/static/image/shirt-3.jpg" alt="Car" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+
+
+
+   </body>
+</html>
